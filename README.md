@@ -43,17 +43,18 @@ This tutorial guides you through setting up a Raspberry Pi to run a scheduled sc
 - Create a directory for your wallet:
 ```mkdir -p /home/username/wallet```
 - Transfer your script and the PEM file from your computer to the Raspberry Pi using SCP:
-```scp path/to/your_script.sh username@raspberry_pi_ip:/home/username/```
-```scp path/to/your_wallet.pem username@raspberry_pi_ip:/home/username/wallet/```
+  ```scp path/to/your_script.sh username@raspberry_pi_ip:/home/username/```
+
+  ```scp path/to/your_wallet.pem username@raspberry_pi_ip:/home/username/wallet/```
 - Ensure the script has execute permissions:
-```chmod +x /home/username/your_script.sh```
+  ```chmod +x /home/username/your_script.sh```
 - Update the script to include the correct path to the PEM file:
-```nano /home/username/your_script.sh```
+  ```nano /home/username/your_script.sh```
   - Modify the WALLET_PEM variable to "/home/username/wallet/your_wallet.pem"
 
 ## Step 10: Setting Up Cron Job
 - Ensure the MultiversX SDK CLI command `mxpy` is accessible by adding its path to the cron file:
-```which mxpy``` to find the path
+  ```which mxpy``` to find the path
   - Open the crontab editor to schedule your script:
   ```crontab -e```
     - Add these lines to run your script daily at 19:00:
