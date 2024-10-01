@@ -101,3 +101,8 @@ crontab -l
 
 ## Conclusion
 Your Raspberry Pi is now configured to execute your script every 24 hours automatically. Monitor the cron job's output to verify it runs as expected.
+
+## License
+
+[GNU General Public License v3.0]([https://choosealicense.com/licenses/mit/](https://github.com/PaulWCZ/Auto-Daily-Claim-on-MultiversX/blob/main/LICENSE))
+
