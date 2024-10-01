@@ -11,18 +11,19 @@ mxpy wallet convert --infile path/to/test_wallet.json --in-format keystore-mnemo
 
 ## Step 2: Downloading the OS
 - Download the Raspberry Pi Imager from the official [Raspberry Pi website](https://www.raspberrypi.com/software/).
-- Select "Ubuntu Server 20.04.5 LTS (32-bit)" as your operating system.
 
 ## Step 3: Writing the Image to SD Card
 - Insert your SD card into your computer.
-- Open Raspberry Pi Imager and select the OS image you downloaded.
-- Choose the SD card as your target and click "Write".
+- Open Raspberry Pi Imager and select the OS image for Ubuntu Server 20.04.5 LTS or other versions depending on your Raspberry Pi. Here is the path:
+Other general Purpose (other)--> Ubuntu--> Select the version you want.
+- Choose the SD card as your target.
 
 ## Step 4: Enabling SSH and Configuring WiFi
 - Before ejecting the SD card, enable SSH in the Raspberry Pi Imager settings:
   - Enable SSH.
   - Set a username and password for SSH access.
 - Configure WiFi by providing your network name (SSID) and password.
+- Click "Write".
 
 ## Step 5: Connecting to Raspberry Pi
 - Eject the SD card from your computer and insert it into your Raspberry Pi.
