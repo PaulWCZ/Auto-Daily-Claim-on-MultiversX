@@ -56,14 +56,15 @@ This tutorial guides you through setting up a Raspberry Pi to run a scheduled sc
 - Ensure the MultiversX SDK CLI command `mxpy` is accessible by adding its path to the cron file:
   ```which mxpy``` to find the path
   - Open the crontab editor to schedule your script:
-  ```
+```
 crontab -e
 ```
+`
     - Add these lines to run your script daily at 19:00:
-      ```
+```
 PATH=/path/to/mxpy:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 0 19 * * * /home/username/your_script.sh
-      ```
+```
 - The cron job will automatically restart upon reboot.
 
 ## Step 11: Reboot and Verify
