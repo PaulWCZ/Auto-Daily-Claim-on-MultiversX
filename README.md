@@ -1,4 +1,4 @@
-# Auto Daily Claim for MultiversX on Raspberry Pi Setup with Ubuntu Server 20.04.5 LTS
+# Auto Daily Claim for MultiversX on Raspberry Pi
 
 This tutorial guides you through setting up a Raspberry Pi to run a scheduled script every 24 hours using Ubuntu Server 20.04.5 LTS for claiming MultiversX XP daily. This automated process is convenient but carries a minor risk as it involves keeping your PEM file accessible on the device, potentially exposing your wallet to unauthorized access.
 
