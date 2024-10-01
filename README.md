@@ -2,6 +2,8 @@
 
 This tutorial guides you through setting up a Raspberry Pi to run a scheduled script every 24 hours using Ubuntu Server 20.04.5 LTS for claiming MultiversX XP daily. This automated process is convenient but carries a minor risk as it involves keeping your PEM file accessible on the device, potentially exposing your wallet to unauthorized access.
 
+If you encounter any issues during installation, feel free to send your console output to ChatGPT for assistance!
+
 ## Step 1: Converting Keystore to PEM
 - To convert a keystore file to PEM format, use the following command:
 ```
