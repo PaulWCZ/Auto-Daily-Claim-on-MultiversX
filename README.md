@@ -61,6 +61,9 @@ pipx ensurepath
 ```
 pipx install multiversx-sdk-cli --force
 ```
+```
+pipx ensurepath
+```
 - After installation, reboot to activate the MultiversX command-line tool:
 ```
 sudo reboot
