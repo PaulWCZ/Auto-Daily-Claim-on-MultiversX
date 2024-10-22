@@ -47,6 +47,9 @@ sudo apt install curl jq perl git build-essential pkg-config libssl-dev
 ```
 sudo apt install python3-pip python3-venv libffi-dev rustc cargo
 ```
+```
+sudo apt-get install libudev-dev
+```
 
 ## Step 8: Installing the MultiversX SDK CLI
 ```
