@@ -50,7 +50,13 @@ sudo apt install python3-pip python3-venv libffi-dev rustc cargo
 
 ## Step 8: Installing the MultiversX SDK CLI
 ```
-sudo apt install pipx && pipx ensurepath && pipx install multiversx-sdk-cli --force
+sudo apt install pipx
+```
+```
+pipx ensurepath
+```
+```
+pipx install multiversx-sdk-cli --force
 ```
 - After installation, reboot to activate the MultiversX command-line tool:
 ```
