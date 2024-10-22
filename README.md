@@ -39,7 +39,13 @@ ssh username@raspberry_pi_ip
 
 ## Step 7: Installing Necessary Packages
 ```
-sudo apt update && sudo apt install curl jq perl git build-essential pkg-config libssl-dev python3-pip python3-venv libffi-dev rustc cargo
+sudo apt update
+```
+```
+sudo apt install curl jq perl git build-essential pkg-config libssl-dev
+```
+```
+sudo apt install python3-pip python3-venv libffi-dev rustc cargo
 ```
 
 ## Step 8: Installing the MultiversX SDK CLI
